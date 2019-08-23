@@ -1,0 +1,16 @@
+push방법
+
+1. 보내고자하는 폴더에서 우클릭 깃베시 실행
+2. git init		//브런치 마스터 확인
+3. git status	//빨간색인지 확인 및 브런치 마스터 확인
+4. git add . 	//전체적으로 접근하여 add
+5. git commit -m "test"	//커밋해주고 상태메세지 test로 적어줌(m옵션-> vim 열지않고 상태메세지 입력)
+6. git remote add origin 깃헙주소	//깃헙주소 origin에 별명으로 등록
+7. git remote -v		//별명 및 주소 확인
+8. git push origin master	//밀어넣기
+9. 아이디 비번 입력
+
+pull방법
+
+1. 다운 받고자하는 폴더에서 우클릭 깃베시 실행
+2. git clone 깃헙주소

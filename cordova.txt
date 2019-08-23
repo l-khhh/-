@@ -1,0 +1,11 @@
+cmd 키고~
+npm install -g cordova
+//원하는 폴더에서
+cordova create MyApp
+//yes
+cd MyApp
+cordova platforms add android
+cd platforms
+cd android
+//이후 안쓰 ㄱㄱ
+안쓰에서 open ->폴더->MyApp->platforms->android 선택
